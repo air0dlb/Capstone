@@ -1,6 +1,6 @@
 This is a HOA Website that is created to bring all news for the community to one location for home owners to view what is going on in the subdivision. 
 This includes HOA Highlighted dates, options to sign up for Spring/Summer/Fall/Winter newsletter. 
-Like to have the option to pay HOA dues via PayPal or other 3rd party pay. 
+ 
 
 README File:
 A README file is crucial in development for its ability to provide an overview of the project's purpose, functionality, and setup instructions, streamlining onboarding for new contributors. 
