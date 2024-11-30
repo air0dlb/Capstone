@@ -1,0 +1,149 @@
+html {
+    background-color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  
+  /* Define styles for the custom header */
+  .navbar {
+    background-color: teal;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  /* Style for the header links container */
+  .header-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for each individual header link */
+  .header-link {
+    font-size: large;
+    color: #fff;
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+  
+  /* Style for the hamburger menu container */
+  .hamburger-menu {
+    display: none; /* Initially hide the hamburger menu */
+    cursor: pointer;
+  }
+  
+  /* Style for the individual bars in the hamburger menu icon */
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+  }
+  /* Style for the mobile-specific text next to the hamburger menu */
+  .mobile-header {
+    display: none; /* Initially hide the mobile header text */
+  }
+  
+  /* Media query for responsive design - screens with a width up to 768px */
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for header links on smaller screens */
+    .header-links {
+      display: none; /* Hide box elements on smaller screens */
+      flex-direction: column;
+      position: absolute;
+      top: 4rem;
+      right: 0.5rem;
+      background-color: rgb(80, 80, 80);
+      width: 75%;
+    }
+  
+    /* Show header links on click for smaller screens */
+    .header-links.show {
+      display: flex;
+    }
+  
+    /* Adjust styles for individual header links in mobile view */
+    .header-link {
+      margin: 0; /* Remove margin between links in mobile view */
+    }
+  
+    /* Display the hamburger menu on smaller screens */
+    .hamburger-menu {
+      display: block;
+    }
+    .mobile-header {
+      display: block; /* Display text on smaller screens */
+      align-content: center;
+      font-size: large;
+    }
+  }
+.entryPicture img {
+    max-width: 100%;
+    height: auto;
+}
+.entryPicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: teal;
+}
+h1 {
+  text-align: center;
+  color: teal;
+} 
+h2 {
+  text-align: center;
+  color: teal;
+}
+h3 {
+  text-align: center;
+  color: teal;
+}
+.introduction {
+  text-align: center;
+}
+footer {
+  background-color: teal;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 1rem;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  padding: 7px 10px 10px 10px;
+}
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #01051a;
+  border-top: 1px solid #999;
+  text-align: left;
+}
+tr.even {
+  background-color: #6ee5fa;
+}
+tr:hover {
+  background-color: #c3e6e5;
+}
+#username-err {
+  color: red;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 24px;
+  display: none;
+}
+.center-text {
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+}
+.white-text {
+  color: teal
+}
