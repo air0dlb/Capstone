@@ -14,4 +14,4 @@ Identify 3+ features from the provided list that you've integrated:
 3. Ability to using navigation menu for desktop view or hamburger menu for mobile. 
 4. Associated Netlify 3 party software to provide a url for easy viewing. 
 
-Note:  Blake (mentor) assisted with Hamburger menu options, and used GitHub Copilot assistance with fixing code. 
+Note:  Blake Herbert (mentor) assisted with Hamburger menu options, and used GitHub Copilot assistance with fixing code. 
