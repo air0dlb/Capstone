@@ -1,19 +1,17 @@
-This is a HOA Website that is created to bring all news for the community to one location for home owners to view what is going on in the subdivision. 
-Countdown the days to Christmas.
-Current weather for Charleswood Forest via OpenWeatherMap API. 
+This is a Home Owners Association Website that is created to bring all news for the community to one location for home owners to view what is going on in the subdivision. 
+It includes "Countdown the days until Christmas".
+It provides the "Current weather for Charleswood Forest" via OpenWeatherMap API. 
+It provides a directory for the Charleswood Forest HOA Board members. 
 
-Like to have the option to pay HOA dues via PayPal or other 3rd party pay. 
+Future Features: 
+I would like to have the option to pay HOA dues via PayPal or other 3rd party pay eventually/
 
-README File:
-A README file is crucial in development for its ability to provide an overview of the project's purpose, functionality, and setup instructions, streamlining onboarding for new contributors. 
+To view, netlify provides a url link for easy viewing: https://genuine-cajeta-01943d.netlify.app/
 
-It also outlines dependencies, licensing, and troubleshooting tips, ensuring developers have the necessary information to work effectively.
+Identify 3+ features from the provided list that you've integrated:
+1. Countdown days until Christmas
+2. 3rd party API
+3. Ability to using navigation menu for desktop view or hamburger menu for mobile. 
+4. Associated Netlify 3 party software to provide a url for easy viewing. 
 
-Include a README file explaining your project.
-Describe your project in a paragraph or more.
-
-Identify 3+ features from the provided list that you've integrated.
-Add any special instructions for the reviewer to run your project.
-
-
-GitHub Copilot assistance with fixing code. 
+Note:  Blake (mentor) assisted with Hamburger menu options, and used GitHub Copilot assistance with fixing code. 

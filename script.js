@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const headerLinks = document.querySelector('.header-links');
 
     hamburgerMenu.addEventListener('click', function () {
-        headerLinks.classList.toggle('show');
+        headerLinks.classList.toggle('active');
     });
 
 // JavaScript for form validation

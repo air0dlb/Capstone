@@ -71,6 +71,7 @@ html {
     /* Display the hamburger menu on smaller screens */
     .hamburger-menu {
       display: block;
+      cursor: pointer;
     }
     .mobile-header {
       display: block; /* Display text on smaller screens */
