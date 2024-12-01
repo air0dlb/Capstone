@@ -7,25 +7,25 @@ document.addEventListener('DOMContentLoaded', function () {
         headerLinks.classList.toggle('show');
     });
 
-    var username = document.getElementById('username');
-    var loginForm = document.getElementById('login-form');
-    var usernameErrPara = document.getElementById('username-err');
-
-    if (username) {
-        username.addEventListener('input', function(e){
-            console.log(e.target.value);
-            var pattern = /^[\w]{6,8}$/;
-            var currentValue = e.target.value;
-            var valid = pattern.test(currentValue);
-
-            if(valid){
-                usernameErrPara.style.display = 'none';
+// JavaScript for form validation
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+            // Get the email input value
+            var email = document.getElementById('email').value;
+            // Regular expression for validating email
+            var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            // Check if the email matches the pattern
+            if (!emailPattern.test(email)) {
+                // Show error message
+                document.getElementById('email-err').style.display = 'block';
+                // Prevent form submission
+                event.preventDefault();
             } else {
-                usernameErrPara.style.display = 'block';
+                // Hide error message
+                document.getElementById('email-err').style.display = 'none';
             }
         });
-    }
-});
+   
+    
 
 let today = new Date();
 let christmasYear = today.getFullYear();
